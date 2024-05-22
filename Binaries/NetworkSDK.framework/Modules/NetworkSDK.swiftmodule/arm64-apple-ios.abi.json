@@ -1,0 +1,167 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "NetworkSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "NetworkService",
+        "printedName": "NetworkService",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "shared",
+            "printedName": "shared",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "NetworkService",
+                "printedName": "NetworkSDK.NetworkService",
+                "usr": "s:10NetworkSDK0A7ServiceC"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10NetworkSDK0A7ServiceC6sharedACvpZ",
+            "mangledName": "$s10NetworkSDK0A7ServiceC6sharedACvpZ",
+            "moduleName": "NetworkSDK",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NetworkService",
+                    "printedName": "NetworkSDK.NetworkService",
+                    "usr": "s:10NetworkSDK0A7ServiceC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10NetworkSDK0A7ServiceC6sharedACvgZ",
+                "mangledName": "$s10NetworkSDK0A7ServiceC6sharedACvgZ",
+                "moduleName": "NetworkSDK",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "fetchData",
+            "printedName": "fetchData(url:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URL",
+                "printedName": "Foundation.URL",
+                "usr": "s:10Foundation3URLV"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Result<Foundation.Data, Swift.Error>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Result",
+                    "printedName": "Swift.Result<Foundation.Data, Swift.Error>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Data",
+                        "printedName": "Foundation.Data",
+                        "usr": "s:10Foundation4DataV"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ],
+                    "usr": "s:s6ResultO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10NetworkSDK0A7ServiceC9fetchData3url10completiony10Foundation3URLV_ys6ResultOyAG0E0Vs5Error_pGctF",
+            "mangledName": "$s10NetworkSDK0A7ServiceC9fetchData3url10completiony10Foundation3URLV_ys6ResultOyAG0E0Vs5Error_pGctF",
+            "moduleName": "NetworkSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:10NetworkSDK0A7ServiceC",
+        "mangledName": "$s10NetworkSDK0A7ServiceC",
+        "moduleName": "NetworkSDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/muditbhatnagar\/Desktop\/DevRev_assignment\/NetworkSDK\/NetworkSDK\/NetworkService.swift",
+      "kind": "StringLiteral",
+      "offset": 589,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/muditbhatnagar\/Desktop\/DevRev_assignment\/NetworkSDK\/NetworkSDK\/NetworkService.swift",
+      "kind": "IntegerLiteral",
+      "offset": 599,
+      "length": 2,
+      "value": "-1"
+    },
+    {
+      "filePath": "\/Users\/muditbhatnagar\/Desktop\/DevRev_assignment\/NetworkSDK\/NetworkSDK\/NetworkService.swift",
+      "kind": "StringLiteral",
+      "offset": 641,
+      "length": 18,
+      "value": "\"No data received\""
+    }
+  ]
+}
